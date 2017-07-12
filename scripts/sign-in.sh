@@ -1,7 +1,7 @@
 #!/bin/bash
 
 API="${API_ORIGIN:-http://localhost:4741}"
-URL_PATH="/sign-in"
+URL_PATH="/api/sign-in"
 curl "${API}${URL_PATH}" \
   --include \
   --request POST \
